@@ -1,0 +1,18 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:8889/pfe
+    username: root
+    password: root
+
+
+  logging:
+    level:
+      ma.pfe: INFO
+      org.springframework.web: DEBUG
+
